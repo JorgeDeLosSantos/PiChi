@@ -1,0 +1,97 @@
+{
+
+"pageSetup": {
+	"width": "17cm",
+	"height": "24cm",
+	"spacing-header": "5mm",
+	"spacing-footer": "5mm",
+	"margin-top": "1cm",
+	"margin-bottom": "1cm",
+	"margin-left": "1.5cm",
+	"margin-right": "1.5cm",
+	"firstTemplate": "coverPage"
+},
+
+"pageTemplates": {
+    "coverPage" : {
+        "frames": [["0%", "0%", "100%", "100%"]],
+        "showFooter" : false,
+        "showHeader" : false,
+        "background" : "src/portada.pdf"
+    }
+},
+
+"styles": [
+
+	["bodytext", {
+		"fontName": "Arial",
+		"leading": 14,
+		"fontSize": 12,
+		"textColor": #050505
+	}],
+
+	["title", {
+		"fontSize": 40,
+		"textColor": #ffffff
+	}],
+
+	["subtitle", {
+		"fontSize": 14,
+		"textColor": black
+	}],
+
+	["heading1", {
+		"fontSize": 26,
+		"textColor": #0f0f0f,
+		"firstLineIndent": 5,
+		"borderColor": #dddddd,
+		"borderWidth": 1,
+		"borderRadius": 5,
+		"borderPadding": 2
+	}],
+
+	["heading2", {
+		"fontSize": 18,
+		"textColor": #228022
+	}],
+
+	["heading3", {
+		"fontName": stdBold,
+		"fontSize": 16,
+		"textColor": #70aa70
+	}],
+
+	["heading4", {
+		"fontName": stdBold,
+		"fontSize": 14,
+		"textColor": #777777
+	}],
+
+	["code", {
+		"fontName": "DejaVu Sans Mono",
+		"borderWidth": 0,
+		"borderRadius": 2,
+		"backColor": #fefefe
+	}],	
+	
+	["tip", {
+		"fontSize": 10,
+		"textColor": #555555,
+		"backColor": #f0f0f0,
+		"leftIndent": 40,
+		"borderPadding": 5,
+		"rightIndent": 40,
+		"borderWidth": 2,
+		"borderColor": #7777ff,
+		"borderRadius": 5,
+		"alignment": "justify"
+	}],
+
+	["aboutinfo", {
+		"fontName": "DejaVu Sans Mono",
+		"fontSize": 16,
+		"textColor": #0f0f0f,
+		"alignment": "center"
+	}]
+	]
+}
